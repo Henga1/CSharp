@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierTestsLib", "MultiplierTestsLib\MultiplierTestsLib.csproj", "{7948D573-FB98-4AFB-9627-DC040ACA4002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplierLib", "MultiplierLib\MultiplierLib.csproj", "{81D9D332-2A94-4BC3-9073-BE7D2FB14BCB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7948D573-FB98-4AFB-9627-DC040ACA4002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7948D573-FB98-4AFB-9627-DC040ACA4002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7948D573-FB98-4AFB-9627-DC040ACA4002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7948D573-FB98-4AFB-9627-DC040ACA4002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D9D332-2A94-4BC3-9073-BE7D2FB14BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D9D332-2A94-4BC3-9073-BE7D2FB14BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D9D332-2A94-4BC3-9073-BE7D2FB14BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D9D332-2A94-4BC3-9073-BE7D2FB14BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
